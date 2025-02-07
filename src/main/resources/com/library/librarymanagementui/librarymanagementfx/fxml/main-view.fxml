@@ -1,0 +1,30 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.geometry.Insets?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.layout.VBox?>-->
+
+<!--<?import javafx.scene.control.Button?>-->
+<!--<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"-->
+<!--      fx:controller="com.library.librarymanagementui.librarymanagementfx.controller.BookController">-->
+<!--    <padding>-->
+<!--        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>-->
+<!--    </padding>-->
+
+<!--    <Label fx:id="welcomeText"/>-->
+<!--    <Button text="Hello!" onAction="#onHelloButtonClick"/>-->
+<!--</VBox>-->
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.librarymanagementui.librarymanagementfx.controller.BookController">
+    <TableView fx:id="bookTable">
+        <columns>
+            <TableColumn text="Title" fx:id="titleColumn"/>
+            <TableColumn text="Author" fx:id="authorColumn"/>
+            <TableColumn text="ISBN" fx:id="isbnColumn"/>
+            <TableColumn text="Published Date" fx:id="dateColumn"/>
+        </columns>
+    </TableView>
+</AnchorPane>
