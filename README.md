@@ -21,8 +21,7 @@ Before running the project, ensure you have the following installed:
 1. Clone the repository:
    ```sh
    git clone https://github.com/VALOPURUM/library-management-fx.git
-   cd library-management-fx
-   ```
+
 2. Build the project using Maven:
    ```sh
    mvn clean install
